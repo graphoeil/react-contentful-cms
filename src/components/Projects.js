@@ -12,7 +12,9 @@ const Projects = () => {
 	if (loading){
 		return(
 			<section className="projects">
-				<h2>Loading...</h2>
+				<div className="title">
+					<h2>Loading...</h2>
+				</div>
 			</section>
 		);
 	}
